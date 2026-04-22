@@ -42,7 +42,7 @@ func calcMolecularWeight(seq string) (float64, error) {
 func main() {
 	var seq string
 
-	// Leer secuencia desde argumento (por ejemplo: go run main.go "<Aminoacido>") por defecto usará la hemoglobina
+	// Leer secuencia desde argumento (por ejemplo: go run main.go "AMINOACIDO") por defecto usará la hemoglobina
 	// ya que es la que elegimos para el informe.
 	if len(os.Args) > 1 {
 		seq = os.Args[1]
@@ -50,7 +50,7 @@ func main() {
 		// Hemoglobina subunidad alfa humana (141 aa, UniProt P69905)
 		// https://www.uniprot.org/uniprotkb/P69905/entry
 		seq = "MVLSPADKTNVKAAWGKVGAHAGEYGAEALERMFLSFPTTKTYFPHFDLSHGSAQVKGHGKKVADALTNAVAHVDDMPNALSALSDLHAHKLRVDPVNFKLLSCHLLVTLAAHLPAEFTPAVHASLDKFLASVSTVLTSKYR"
-		fmt.Println("No se especificó una secuencia -- se usará la hemoglobina alfa.")
+		fmt.Println("No se especificó una secuencia -- se usará la hemoglobina")
 	}
 
 	// Calcular peso molecular
