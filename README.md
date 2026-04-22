@@ -12,5 +12,5 @@ Para calcular otra proteina añade la secuencia de aminoácidos de la proteina q
 calcular el peso en comillas:
 
 ```shell
-go run main.go "<AMINOACIDO>"
+go run main.go "AMINOACIDO"
 ```
