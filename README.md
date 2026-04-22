@@ -1,8 +1,10 @@
 ## Calculadora de peso molecular
 
-> Para correr esto necesitas `Go` (golang) instalado.
+> Para correr esto necesitas `Go` (golang) instalado o descargar los ejecutables en 'releases'.
 
-Para usar la calculadora simplemente ejecuta:
+### Para usar la calculadora
+
+Si usas el código directamente:
 
 ```shell
 go run main.go # Por defecto usará el valor de la hemoglobina.
@@ -13,4 +15,20 @@ calcular el peso en comillas:
 
 ```shell
 go run main.go "AMINOACIDO"
+```
+
+### Si descargaste el ejecutable
+
+Ambos en una terminal, si usas windows puede ser powershell (no he probado, y no sé si funciona con doble click)
+
+```shell
+protein-calc.exe
+# O alguna otra proteina
+protein-calc.exe "AMINOACIDO"
+```
+
+```shell
+./protein-calc
+# O alguna otra proteina
+./protein-calc "AMINOACIDO"
 ```
