@@ -63,4 +63,6 @@ func main() {
 	// Mostrar resultados
 	fmt.Printf("Peso molecular: %.2f Da\n", mw)
 	fmt.Printf("= %.2f kDa\n", mw/1000.0)
+	fmt.Println("\nPresiona Enter para salir...")
+	fmt.Scanln()
 }
