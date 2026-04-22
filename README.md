@@ -21,12 +21,14 @@ go run main.go "AMINOACIDO"
 
 Ambos en una terminal, si usas windows puede ser powershell (no he probado, y no sé si funciona con doble click)
 
+Windows
 ```shell
 protein-calc.exe
 # O alguna otra proteina
 protein-calc.exe "AMINOACIDO"
 ```
 
+Linux
 ```shell
 ./protein-calc
 # O alguna otra proteina
