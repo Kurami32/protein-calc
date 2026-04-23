@@ -57,6 +57,8 @@ func main() {
 	mw, err := calcMolecularWeight(seq)
 	if err != nil {
 		fmt.Fprintf(os.Stderr, "Error: %v\n", err)
+		fmt.Println("\nPresiona Enter para salir...")
+		fmt.Scanln()
 		os.Exit(1)
 	}
 
